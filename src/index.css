@@ -1,1 +1,6 @@
 @import "bootstrap";
+
+.App{
+    background-color: darkolivegreen;
+    height: 100vh;
+}

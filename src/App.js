@@ -1,12 +1,13 @@
 import React from "react";
-import Card from "./components/tarjetaProducto";
+import Cards from "./components/tarjetas.js";
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-    <h1>Tarjetitas!</h1>
-    <Card />
+      <Cards />
     </div>
+      
   );
 }
 
