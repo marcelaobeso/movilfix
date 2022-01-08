@@ -1,1 +1,38 @@
+<<<<<<< Updated upstream
 @import "bootstrap/dist/css/bootstrap.min.css"
+=======
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+
+
+.title {
+
+}
+
+
+
+.products {
+    background-color: white;
+    display: grid;
+    grid-gap: 7vh;
+    grid-template-columns: repeat(auto-fill, minmax(24vh, 1fr));
+    grid-auto-flow: row;
+    padding: 7vh;
+}
+
+.box {
+    align-self: start;
+    background-color: #fff5ee;
+    border-radius: 4vh;
+}
+
+.photo {
+    height: 24vh;
+    width: 24vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card {
+    font-family: 'Raleway', sans-serif;
+}
+>>>>>>> Stashed changes
